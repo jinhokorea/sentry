@@ -1,0 +1,263 @@
+	* {
+        box-sizing: border-box;
+        font-family: Georgia;
+      }
+
+	  body{
+		<!--background-image: linear-gradient(90deg,#293242 50%,white 50%);-->
+	  
+	  }
+	 .box_signin{
+		position: absolute;
+		width: 591px;
+		height: 897px;
+		left: -2px;
+		top: 154px;
+
+		background: #293242;
+		border: 1px solid #000000;
+		box-sizing: border-box;
+	  
+	  }
+      input[type = f_name] {
+        position: absolute;
+		width: 190px;
+        height: 33px;
+		left: 657px;
+		top: 266px;
+		border: 1px solid #000000;
+		
+      }
+      input[type = l_name] {
+        position: absolute;
+		width: 190px;
+		height: 33px;
+		left: 867px;
+		top: 266px;
+
+		background: #FFFFFF;
+		border: 1px solid #000000;
+	
+      }
+      input[type = email] {
+        position: absolute;
+		width: 400px;
+		height: 33px;
+		left: 656px;
+		top: 358px;
+
+		background: #FFFFFF;
+		border: 1px solid #000000;
+		
+      }
+      input[type = password ] {
+	    position: absolute;
+		width: 400px;
+		height: 33px;
+		left: 656px;
+		top: 452px;
+
+		background: #FFFFFF;
+		border: 1px solid #000000;
+		
+      }   
+	  input[type = psw-repeat ] {
+	    position: absolute;
+		width: 400px;
+		height: 33px;
+		left: 657px;
+		top: 541px;
+
+		background: #FFFFFF;
+		border: 1px solid #000000;
+      }  
+	  label[type = f_name ] {
+		position: absolute;
+		width: 130px;
+		height: 28px;
+		left: 657px;
+		top: 227px;
+
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 28px;
+
+		color: #000000;
+      }  
+	  label[type = email ] {
+		position: absolute;
+		width: 165px;
+		height: 28px;
+		left: 657px;
+		top: 320px;
+
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 28px;
+
+
+		color: #000000;
+      }  
+	   label[type = password ] {
+		position: absolute;
+		width: 110px;
+		height: 28px;
+		left: 657px;
+		top: 414px;
+
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 28px;
+
+		color: #000000;
+      }  
+	  label[type = psw-repeat ] {
+		position: absolute;
+		width: 300px;
+		height: 28px;
+		left: 658px;
+		top: 503px;
+
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 24px;
+		line-height: 28px;
+
+
+		color: #000000;
+      }  
+	   p[type = p_reg] {
+	    position: absolute;
+		width: 214px;
+		height: 42px;
+		left: 740px;
+		top: 133px;
+
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 36px;
+		line-height: 42px;
+
+		color: #000000;
+   
+	  }
+	  p[ type = p_welcome]{
+		position: absolute;
+		width: 291px;
+		height: 215px;
+		left: 150px;
+		top: 50px;
+
+		font-family: Karla;
+		font-style: normal;
+		font-weight: bold;
+		font-size: 50px;
+		line-height: 58px;
+		text-align: center;
+
+		color: #FFFFFF;
+
+	  }
+	  p[type = p_2]{
+		  position: absolute;
+		width: 475px;
+		height: 33px;
+		left: 57px;
+		top: 200px;
+
+		font-family: Karla;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 28px;
+		line-height: 33px;
+		color: #FFFFFF;
+
+	  }
+	   p[type = p_3]{
+		position: absolute;
+		width: 400px;
+		height: 28px;
+		left: 156px;
+		top: 300px;
+		
+		font-family: Karla;
+		font-style: normal;
+		font-weight: normal;
+		font-size: 24px;
+		line-height: 28px;
+
+
+		color: #FFFFFF;
+
+	  }
+
+	  button[type = submit ] {
+		position: absolute;
+		width: 126px;
+		height: 66px;
+		left: 793px;
+		top: 595px;
+		background-color: #293242;
+	    color: #FFFFFF
+      }   
+	  button[type = sign_in ] {
+		
+		position: absolute;
+		width: 126px;
+		height: 66px;
+		left: 233px;
+		top: 546px;
+	  }  
+
+	  .topnav {
+		overflow: hidden;
+		background-color:#E5E5E5;
+		padding-top: 50px;
+	  }
+
+	  .topnav a {
+		color: black;
+		padding: 81px 34px;
+		text-decoration: none;
+		font-size: 17px;
+	  }
+
+	  .topnav a:hover {
+		background-color:#293242;
+		color: white;
+	  }
+
+
+	  .topnav .icon {
+		display: none;
+	  }
+
+		.first{ margin-right: 134px}
+@media screen and (max-width: 600px) {
+  .topnav a:not(:first-child) {display: none;}
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .topnav.responsive {position: relative;}
+  .topnav.responsive .icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
